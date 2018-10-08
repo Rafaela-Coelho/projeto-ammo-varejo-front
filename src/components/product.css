@@ -1,0 +1,111 @@
+.produto {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    background-color: transparent;
+  }
+  
+  .produto span {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .input {
+    border-radius: 9px;
+    border-color: transparent;
+    align-content: right;
+    margin: 5px;
+    height: 15px;
+    width: 400px;
+}
+
+  .div-input {
+    justify-content: right;
+    margin: 5px;
+  }
+
+
+.lista-wrapper {
+  margin: 0px auto 0px auto;
+  width: 500px;
+  min-width: height 600px;
+  border: 1px solid lightslategrey;
+  padding: 20px;
+  background-color: #ffff
+}
+
+.lista-wrapper-item {
+  margin: 20px auto 20px auto;
+  width: 500px;
+  min-width: height 600px;
+  border: 0.1px solid lightslategrey;
+  padding: 20px;
+  vertical-align: center;
+  background-color: white;
+  flex-direction: row;
+}
+
+.itemWraper {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.icon-image {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.input-header {
+  background-color: #cacaca;
+  height: 10%;
+}
+
+.grid-name-search {
+  background-color: #dcdbde;
+  height: 15%;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.grid-list {
+  background-color: #6e6e6e
+}
+
+.view {
+  background-color: #6e6e6e;
+}
+
+.div-item-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row
+}
+
+.text-header-item {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.text-item {
+  font-weight: normal;
+  font-size: 15px;
+  color: #6e6e6e
+}
+
+.text-item-no-price {
+  font-weight: normal;
+  font-size: 15px;
+  color: #6e6e6e;
+  text-decoration: line-through;
+  justify-content: right
+}
+
+.p-text {
+  font-weight: lighter;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-left: 5px
+}
